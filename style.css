@@ -142,4 +142,77 @@ header input {
 .section2 div .img3 {
   top: 20px;
   right: -275px;
+}
+
+.section3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 100px 20px;
+  gap: 25px;
+}
+.section3 div {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(94, 94, 94, 0.368627451);
+  padding: 20px;
+  gap: 20px;
+  align-items: start;
+  border-radius: 14px;
+  width: 22%;
+}
+.section3 div h3, .section3 div h4 {
+  font-weight: 500;
+  font-size: 20px;
+  color: #0A093D;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.section3 div h4 {
+  gap: 5px;
+  font-size: 16px;
+}
+.section3 div p {
+  color: #656464;
+  font-size: 16px;
+  width: 100%;
+}
+.section3 div h5 {
+  font-weight: 500;
+  color: #217BF4;
+  font-size: 16px;
+}
+.section3 aside {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+  width: 31%;
+  margin-left: 100px;
+}
+.section3 aside h5 {
+  font-weight: 500;
+  color: #217BF4;
+  font-size: 16px;
+}
+.section3 aside h2 {
+  font-size: 36px;
+}
+.section3 aside p {
+  color: #656464;
+  font-size: 16px;
+  width: 100%;
+}
+.section3 aside button {
+  padding: 15px 40px;
+  font-size: 18px;
+  background-color: #217BF4;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */
