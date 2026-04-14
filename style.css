@@ -1,1 +1,145 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+header div {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+header div nav {
+  display: flex;
+  gap: 20px;
+}
+header input {
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+.section1 aside {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+}
+.section1 aside h1 {
+  font-size: 55px;
+}
+.section1 aside p {
+  font-size: 22px;
+  color: gray;
+}
+.section1 aside button {
+  padding: 15px 40px;
+  font-size: 18px;
+  background-color: #217BF4;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #E9F2FE;
+  color: #217BF4;
+}
+.section1 aside div button {
+  padding: 15px 40px;
+  font-size: 18px;
+  background-color: #217BF4;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.section1 aside div button:last-child {
+  padding: 15px 40px;
+  font-size: 18px;
+  background-color: #217BF4;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid #217BF4;
+  color: #217BF4;
+  background-color: white;
+}
+
+.section2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+.section2 aside {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 33%;
+}
+.section2 aside h5 {
+  color: #217BF4;
+  font-size: 18px;
+  font-weight: 500;
+}
+.section2 aside h2 {
+  font-size: 36px;
+}
+.section2 aside p {
+  color: #656464;
+  font-size: 16px;
+  width: 100%;
+}
+.section2 aside div {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.section2 aside div p {
+  color: #171648;
+  font-weight: 500;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.section2 aside div p:before {
+  content: "";
+  display: inline-block;
+  padding: 5px;
+  border-radius: 100%;
+  background-color: #217BF4;
+}
+.section2 div {
+  position: relative;
+  width: 50%;
+}
+.section2 div img {
+  position: relative;
+}
+.section2 div .img1 {
+  left: -10px;
+  top: 200px;
+  border-radius: 10px;
+}
+.section2 div .img3 {
+  top: 20px;
+  right: -275px;
+}/*# sourceMappingURL=style.css.map */
