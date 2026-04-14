@@ -215,4 +215,62 @@ header input {
   border-radius: 10px;
   color: white;
   font-size: 14px;
+}
+
+.section4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  flex-direction: column;
+  gap: 10px;
+  padding: 100px 20px;
+}
+.section4 h5 {
+  font-size: 18px;
+  color: #217BF4;
+  font-weight: 500;
+}
+.section4 h2 {
+  font-size: 36px;
+  color: #0A093D;
+}
+.section4 p {
+  color: #656464;
+  font-size: 16px;
+  width: 33%;
+  text-align: center;
+}
+.section4 .sect4cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 25px;
+  margin-top: 50px;
+}
+.section4 .sect4cont .sect4box {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  box-shadow: 0 0 10px rgba(127, 127, 127, 0.1294117647);
+  align-items: center;
+  background-color: white;
+  border-radius: 14px;
+  width: 44%;
+}
+.section4 .sect4cont .sect4box div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.section4 .sect4cont .sect4box div h4 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #2F2C4A;
+}
+.section4 .sect4cont .sect4box div p {
+  width: 60%;
+  text-align: start;
 }/*# sourceMappingURL=style.css.map */

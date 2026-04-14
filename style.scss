@@ -195,3 +195,53 @@ header{
         }
     }
 }
+.section4{
+    @include container();
+    flex-direction: column;
+    gap: 10px;
+    padding: 100px 20px;
+    h5{
+        font-size: 18px;
+        color: #217BF4;
+        font-weight: 500;
+    }
+    h2{
+        font-size: 36px;
+        color: #0A093D;
+    }
+    p{
+        @include opstxt(33%);
+        text-align: center;
+    }
+    .sect4cont{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 25px;
+        margin-top: 50px;
+        .sect4box{
+            display: flex;
+            justify-content: space-between;
+            padding: 25px;
+            box-shadow: 0 0 10px #7F7F7F21;
+            align-items: center;
+            background-color: white;
+            border-radius: 14px;
+            width: 44%;
+            div{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                h4{
+                    font-size: 24px;
+                    font-weight: 600;
+                    color: #2F2C4A;
+                }
+                p{
+                    width: 60%;
+                    text-align: start;
+                }
+            }
+        }
+    }
+}
