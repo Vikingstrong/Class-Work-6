@@ -307,3 +307,38 @@ header{
         }
     }
 }
+.section6{
+    background-color: #E5F0FD;
+    .sect6cont{
+        @include container();
+        position: relative;
+        aside{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            h3{
+                color: #217BF4;
+                font-size: 18px;
+                font-weight: 500;
+            }
+            h2{
+                font-size: 36px;
+                color: #0A093D;
+            }
+            p{
+                @include opstxt(100%);
+            }
+            div{
+                display: flex;
+                align-items: center;
+                margin-left: -25px;
+            }
+        }
+        .telimg{
+            width: 60%;
+            position: relative;
+            right: -150px;
+            bottom: -20px;
+        }
+    }
+}

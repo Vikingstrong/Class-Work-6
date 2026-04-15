@@ -343,4 +343,47 @@ header input {
 .section5 .sect5cont div h3, .section5 .sect5cont .section3 div h4, .section3 .section5 .sect5cont div h4 {
   font-size: 24px;
   margin-top: 25px;
+}
+
+.section6 {
+  background-color: #E5F0FD;
+}
+.section6 .sect6cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+}
+.section6 .sect6cont aside {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section6 .sect6cont aside h3, .section6 .sect6cont aside .section3 div h4, .section3 div .section6 .sect6cont aside h4 {
+  color: #217BF4;
+  font-size: 18px;
+  font-weight: 500;
+}
+.section6 .sect6cont aside h2 {
+  font-size: 36px;
+  color: #0A093D;
+}
+.section6 .sect6cont aside p {
+  color: #656464;
+  font-size: 16px;
+  width: 100%;
+}
+.section6 .sect6cont aside div {
+  display: flex;
+  align-items: center;
+  margin-left: -25px;
+}
+.section6 .sect6cont .telimg {
+  width: 60%;
+  position: relative;
+  right: -150px;
+  bottom: -20px;
 }/*# sourceMappingURL=style.css.map */
