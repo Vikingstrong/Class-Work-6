@@ -437,4 +437,83 @@ header input {
   font-size: 16px;
   width: 240px;
   align-self: center;
+}
+
+.footer1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #2B2B39;
+  padding: 50px 0px;
+}
+.footer1 .fcont1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  padding: 50px 20px;
+  gap: 100px;
+}
+.footer1 .fcont1 div {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.footer1 .fcont1 div h3, .footer1 .fcont1 .section3 div h4, .section3 .footer1 .fcont1 div h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+.footer1 .fcont1 div p {
+  color: #E7E7E7;
+}
+.footer1 .fcont1 div .inpdiv {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  align-items: center;
+  border: 1px solid white;
+  width: 324px;
+  border-radius: 12px;
+}
+.footer1 .fcont1 div .inpdiv input {
+  border: none;
+  padding: 10px 20px;
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+  color: white;
+}
+.footer1 .fcont1 div .inpdiv button {
+  padding: 15px 40px;
+  font-size: 18px;
+  background-color: #217BF4;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 25px;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+}
+
+.footer2 {
+  background-color: #20202D;
+}
+.footer2 .fcont2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+.footer2 .fcont2 p {
+  font-size: 14px;
+  color: white;
+}
+.footer2 .fcont2 .iconcontainer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
