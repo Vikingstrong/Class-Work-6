@@ -44,6 +44,7 @@ header{
         border: none;
         outline: none;
         border-bottom: 1px solid gray;
+        width: 90px;
     }
 }
 
@@ -339,6 +340,49 @@ header{
             position: relative;
             right: -150px;
             bottom: -20px;
+        }
+    }
+}
+.section7{
+    @include container();
+    flex-direction: column;
+    padding: 100px 20px;
+    gap: 20px;
+    h3{
+        font-size: 18px;
+        color: #217BF4;
+        font-weight: 500;
+    }
+    h2{
+        font-size: 36px;
+        color: #0A093D;
+    }
+    .sect7cont{
+        display: flex;
+        margin-top: 50px;
+        gap: 50px;
+        div{
+            display: flex;
+            flex-direction: column;
+ 
+            gap: 20px;
+            h4{
+                font-size: 20px;
+                color: #2F2C4A;
+                display: flex;
+                align-items: start;
+                gap: 10px;
+            }
+            h4::before{
+                content: "";
+                background-color: orange;
+                padding: 1.5px 20px;
+                margin-top: 15px
+            }
+            p{
+                @include opstxt(240px);
+                align-self: center;
+            }
         }
     }
 }
